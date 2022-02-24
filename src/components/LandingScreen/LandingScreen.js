@@ -37,7 +37,7 @@ const LandingScreen = () => {
     
    }, [])
 
-  //  console.log(MotData)
+
 
   const handleFilter = (event) => {
     const searchWord = event.target.value;
