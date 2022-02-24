@@ -1,0 +1,94 @@
+.wrapper{
+   
+  
+   height: 140vh;
+   display: flex;
+   flex-direction: column;
+    width: 100%;
+}
+
+.cityImage{
+
+    display: flex;
+    border: 1px solid black;
+    background-image: url('../../../public/img/london.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 24rem;
+    width: 100%;
+}
+
+
+.companyDetails{
+
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+
+}
+
+
+.companyDescription{
+    
+    flex-basis: 70%;
+    height: 70vh;
+    width: 100%;
+    padding:2rem;
+}
+
+
+.companyDescription h3 {
+  text-decoration: underline;
+    color: #FC3F33;
+
+
+}
+.companyDescription p {
+  
+    text-align: left;
+    text-overflow: wrap;
+}
+
+
+.companyContact{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:10px;
+    height: 75vh;
+    width: 80%;
+    flex-basis:30%;
+    padding-bottom: 0rem;
+
+}
+
+.ContactList{
+    
+    padding-top:10px;
+    list-style: none;
+}
+.ContactListItem{
+  
+    padding:0.9rem;
+
+
+}
+
+.ContactButton{
+
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background-color: #FC3F33;
+    outline: none;
+    border: none;
+    height: 2rem;
+    width:10rem;
+    color: white;
+    padding:10px;
+    /* width: 5rem; */
+
+    
+}

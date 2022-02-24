@@ -1,0 +1,14 @@
+.ServicesList{
+    padding:5rem;
+}
+
+
+.wrapperCard{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.servicestitle{
+    margin-bottom: 5rem;
+}

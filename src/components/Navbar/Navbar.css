@@ -1,0 +1,38 @@
+.navbarWrapper{
+    display: flex;
+    flex-direction: row;
+} 
+
+.logo{
+    flex-basis: 70%;
+    padding-left: 2rem;
+}
+
+.options{
+    
+    display: flex;
+    flex-basis:90% ;
+}
+
+.optionwrap{
+    display: flex; 
+    list-style: none;
+    flex-direction: row;
+}
+
+.optionElement{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:0px;
+    margin-right: 1rem; 
+     margin-left: 1rem;
+     width:5rem
+}
+
+.optionElement:hover{
+
+   background-color: black;
+   color: white;
+}

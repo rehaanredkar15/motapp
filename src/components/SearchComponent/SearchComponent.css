@@ -1,0 +1,39 @@
+
+
+.SearchWrapper{
+    height: 500vh;
+    /* border: 1px solid red; */
+}
+
+.SearchTitle{
+    
+    display: flex;
+    /* position: relative; */
+    /* justify-content: center; */
+    margin-top: 12rem;
+    padding-left: 3rem;
+}
+
+
+
+.ScrollDown{
+    display: flex;
+    margin-left: auto; 
+     margin-right: 50px;
+    justify-content:right;
+    align-items: center;
+}
+
+.cardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding:2rem;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cardWrap{
+    padding:3rem;
+   
+}

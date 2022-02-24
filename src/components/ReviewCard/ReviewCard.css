@@ -1,0 +1,49 @@
+.Card{
+    height: 22rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.UserImage{
+
+    height:15rem;
+    width:15rem;
+    object-fit: cover;
+}
+
+
+.CustomerImage{
+    height:15rem;
+    width:15rem;
+}
+.cutomerratings{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.userreview{
+   
+  color: grey;
+   width:14rem;
+   text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 17px;
+}
+
+.review{
+    padding:10px;
+}
+
+.userName{
+    font-size: 20px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}

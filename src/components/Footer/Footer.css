@@ -1,0 +1,65 @@
+.Footer{
+    color:white;
+    height: 69vh;
+    background-color: #000000;
+    
+}
+
+.FooterTop{
+  
+   padding-left:6rem;
+
+}
+.FooterTop p{
+  
+  font-weight: 100;
+  padding-top:0px;
+  padding-bottom: 2rem;
+}
+.FooterTop h2{
+  padding-bottom: 0px;
+  padding-top: 2rem;
+}
+
+.EmailInput{
+    height:35px;
+    width:14rem;
+}
+
+.Subcribe{
+    background-color: red;
+    border:none;
+    color:white;
+    height: 38px;
+    padding:5px;
+}
+
+
+.FooterSections{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.FooterSections h4{
+
+    margin-left: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.subsectionlist{
+    margin:0px;
+    padding-top: 0px;
+    list-style: none;
+}
+.subsectionlist li{
+   font-weight: 100;
+}
+
+.FooterBottom{
+    margin-top: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

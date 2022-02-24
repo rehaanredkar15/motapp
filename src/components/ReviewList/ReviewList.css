@@ -1,0 +1,23 @@
+
+.ReviewWrap{
+    margin-top: 7rem;
+}
+
+
+.Reviewdesc{
+   
+    margin:4rem;
+    margin-bottom: 5rem;
+
+}
+
+.CardWrap{
+   display: flex;
+   justify-content: space-around;
+   margin-bottom: 5rem;
+}
+
+.description{
+    font-weight: 100;
+    font-style: italic;
+}
