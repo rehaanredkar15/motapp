@@ -39,9 +39,6 @@ const SearchComponent = () => {
                <div className="cardWrap"> 
                  <ServiceCard/>
                </div>
-                 {/* <ServiceCard/>
-                 <ServiceCard/>
-                 <ServiceCard/> */}
             </div>
         </div>
     )

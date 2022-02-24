@@ -10,14 +10,9 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import axios from 'axios';
 
-
-
-
 const LandingScreen = () => {
-
-
-    const [MotData, setMotData] = useState([]);
-    const [filteredData, setFilteredData] = useState([]);
+  const [MotData, setMotData] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
   const [wordEntered, setWordEntered] = useState("");
   let navigate = useNavigate();
 
